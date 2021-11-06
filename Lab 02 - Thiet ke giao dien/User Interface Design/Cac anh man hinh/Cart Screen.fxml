@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: #e3e1da;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="23.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SHOPPING CART">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="14.0" layoutY="78.0" prefHeight="672.0" prefWidth="996.0" style="-fx-background-color: white;">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="996.0" style="-fx-border-color: gray;">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@cd01.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="255.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CD #01">
+                     <font>
+                        <Font name="Arial Bold" size="28.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="255.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Qty:">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Text>
+                  <TextField layoutX="296.0" layoutY="72.0" prefHeight="31.0" prefWidth="66.0" text="1" />
+                  <Button layoutX="255.0" layoutY="124.0" mnemonicParsing="false" text="Delete" textFill="#d01919" />
+                  <Text layoutX="791.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#249de8" layoutX="857.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$573.84">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="200.0" prefHeight="200.0" prefWidth="996.0" style="-fx-border-color: gray;">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="68.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@book05.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="255.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BOOK #05">
+                     <font>
+                        <Font name="Arial Bold" size="28.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="255.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Qty:">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Text>
+                  <TextField layoutX="296.0" layoutY="72.0" prefHeight="31.0" prefWidth="66.0" text="1" />
+                  <Button layoutX="255.0" layoutY="124.0" mnemonicParsing="false" text="Delete" textFill="#d01919" />
+                  <Text layoutX="794.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#249de8" layoutX="861.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$10.99">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+      <AnchorPane layoutX="1033.0" layoutY="78.0" prefHeight="200.0" prefWidth="301.0" style="-fx-background-color: white;">
+         <children>
+            <Text layoutX="13.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subtotal (2 items):">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="#249de8" layoutX="193.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$584.83">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Text>
+            <Text fill="#249de8" layoutX="60.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$643.31">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="13.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount:">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="#e52525" layoutX="181.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VAT (10%)">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Button layoutX="75.0" layoutY="138.0" mnemonicParsing="false" style="-fx-background-color: #f5da42;" text="Proceed to checkout" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: #e3e1da;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="374.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RUSH ORDER SHIPPING INFORMATION">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="139.0" layoutY="86.0" prefHeight="655.0" prefWidth="1087.0" style="-fx-background-color: white;">
+         <children>
+            <Button layoutX="466.0" layoutY="572.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="204.0" style="-fx-background-color: #f5da42;" text="Confirm delivery">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Text layoutX="139.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Full Name">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Text>
+            <TextField layoutX="256.0" layoutY="54.0" prefHeight="41.0" prefWidth="737.0" />
+            <TextField layoutX="256.0" layoutY="116.0" prefHeight="41.0" prefWidth="737.0" />
+            <Text layoutX="79.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact Number">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="181.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Text>
+            <TextField layoutX="256.0" layoutY="179.0" prefHeight="41.0" prefWidth="737.0" />
+            <Text layoutX="106.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Province/City">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="610.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="District">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Text>
+            <ComboBox layoutX="256.0" layoutY="242.0" prefHeight="41.0" prefWidth="293.0" style="-fx-background-color: white; -fx-border-color: #e0e0e0;" />
+            <ComboBox layoutX="700.0" layoutY="242.0" prefHeight="41.0" prefWidth="293.0" style="-fx-background-color: white; -fx-border-color: #e0e0e0;" />
+            <TextField layoutX="256.0" layoutY="307.0" prefHeight="41.0" prefWidth="737.0" />
+            <Text layoutX="70.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Detailed Address">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="42.0" layoutY="434.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shipping Instruction">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Text>
+            <TextField layoutX="256.0" layoutY="373.0" prefHeight="109.0" prefWidth="737.0" />
+            <Text layoutX="99.0" layoutY="531.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Received Time">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Text>
+            <TextField layoutX="256.0" layoutY="503.0" prefHeight="41.0" prefWidth="737.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
