@@ -1,0 +1,19 @@
+Cac class da them hoac sua doi de phuc vu UC Place Rush Order:
+- package common.exception: them cac class:
+	+ InvalidRushOrderDeliveryInfoException
+	+ NoRushOrdereSupportedMediaException
+
+- package controller:
+	+ chinh sua class PlaceOrderController:
+		~ them method validateRushOrderDeliveryInfo()
+		~ them method validateRushOrderSupportedAddress()
+		~ them method validateRushOrderDeliveryTime()
+		~ them method calculateRushOrderShippingFee()
+
+- package entity.cart:
+	+ chinh sua class Cart:
+		~ them method checkRushOrderSupportOfProduct()
+
+- package entity.order:
+	+ chinh sua class Order:
+		~ them method getNumberOfMedia()
